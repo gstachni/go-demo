@@ -111,5 +111,5 @@ failure {
   slackSend(color: "good", message: "${env.JOB_NAME} failed, details at ${env.RUN_DISPLAY_URL}") 
  }
   }
-  }
+  
 }
